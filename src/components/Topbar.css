@@ -1,0 +1,13 @@
+.Topbar {
+  width: 100%;
+  height: 10vh;
+  background-color: #FFFFFF;
+}
+
+.ShipperLogo {
+  height: 4vh;
+}
+
+.UserName {
+  font-size: 2vh;
+}
