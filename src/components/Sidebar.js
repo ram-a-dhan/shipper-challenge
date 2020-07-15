@@ -29,7 +29,7 @@ export default function Sidebar(props) {
 				<IconContext.Provider value={{ size: '2.5vh' }}>
 					{/* eslint-disable-next-line */}
           <a href="#"
-            className={"" + (props.active.beranda ? " text-danger SidebarActive" : " text-dark")}
+            className={"" + (props.active.beranda ? "SidebarActive" : "SidebarInactive")}
             onClick={() => handleActive('beranda')}
           >
 						<li className="py-3 pl-3">
@@ -38,7 +38,7 @@ export default function Sidebar(props) {
 					</a>
 					{/* eslint-disable-next-line */}
           <a href="#"
-            className={"" + (props.active.pickup ? " text-danger SidebarActive" : " text-dark")}
+            className={"" + (props.active.pickup ? "SidebarActive" : "SidebarInactive")}
             onClick={() => handleActive('pickup')}
           >
 						<li className="py-3 pl-3">
@@ -47,7 +47,7 @@ export default function Sidebar(props) {
 					</a>
 					{/* eslint-disable-next-line */}
           <a href="#"
-            className={"" + (props.active.order ? " text-danger SidebarActive" : " text-dark")}
+            className={"" + (props.active.order ? "SidebarActive" : "SidebarInactive")}
             onClick={() => handleActive('order')}
           >
 						<li className="py-3 pl-3">
@@ -56,7 +56,7 @@ export default function Sidebar(props) {
 					</a>
 					{/* eslint-disable-next-line */}
           <a href="#"
-            className={"" + (props.active.driver ? " text-danger SidebarActive" : " text-dark")}
+            className={"" + (props.active.driver ? "SidebarActive" : "SidebarInactive")}
             onClick={() => handleActive('driver')}
           >
 						<li className="py-3 pl-3">
@@ -65,7 +65,7 @@ export default function Sidebar(props) {
 					</a>
 					{/* eslint-disable-next-line */}
           <a href="#"
-            className={"" + (props.active.merchant ? " text-danger SidebarActive" : " text-dark")}
+            className={"" + (props.active.merchant ? "SidebarActive" : "SidebarInactive")}
             onClick={() => handleActive('merchant')}
           >
 						<li className="py-3 pl-3">
@@ -74,7 +74,7 @@ export default function Sidebar(props) {
 					</a>
 					{/* eslint-disable-next-line */}
           <a href="#"
-            className={"" + (props.active.laporan ? " text-danger SidebarActive" : " text-dark")}
+            className={"" + (props.active.laporan ? "SidebarActive" : "SidebarInactive")}
             onClick={() => handleActive('laporan')}
           >
 						<li className="py-3 pl-3">
@@ -83,7 +83,7 @@ export default function Sidebar(props) {
 					</a>
 					{/* eslint-disable-next-line */}
           <a href="#"
-            className={"" + (props.active.profil ? " text-danger SidebarActive" : " text-dark")}
+            className={"" + (props.active.profil ? "SidebarActive" : "SidebarInactive")}
             onClick={() => handleActive('profil')}
           >
 						<li className="py-3 pl-3">

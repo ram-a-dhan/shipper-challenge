@@ -5,12 +5,21 @@
 .SidebarList a {
   display: block;
   font-size: 2vh;
+}
+
+.SidebarList a:hover {
+  color: #405060;
+  background-color: #F6F9FB;
+}
+
+.SidebarInactive {
   border-left: 10px solid rgba(255,255,255,0);
+  color: #405060;
   background-color: #FFFFFF;
 }
 
 .SidebarActive {
-  border-left: 10px solid #FF003D !important;
-  color: #FF003D !important;
-  background-color: #F6F9FB !important;
+  border-left: 10px solid #FF003D;
+  color: #FF003D;
+  background-color: #F6F9FB;
 }
