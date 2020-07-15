@@ -1,0 +1,16 @@
+.SidebarList {
+  list-style: none;
+}
+
+.SidebarList a {
+  display: block;
+  font-size: 2vh;
+  border-left: 10px solid rgba(255,255,255,0);
+  background-color: #FFFFFF;
+}
+
+.SidebarActive {
+  border-left: 10px solid #FF003D !important;
+  color: #FF003D !important;
+  background-color: #F6F9FB !important;
+}
