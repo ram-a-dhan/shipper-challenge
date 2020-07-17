@@ -4,6 +4,7 @@ import ProgressBar from 'react-customizable-progressbar';
 import './DriverCard.css';
 
 export default function DriverCard({ driver }) {
+  // i chose 50% as the threshold between good and bad OnTime driver performance
   // eslint-disable-next-line
   const [ threshold, setThreshold ] = useState(50);
   return (

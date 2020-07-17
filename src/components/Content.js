@@ -4,6 +4,10 @@ import DriverCard from './DriverCard';
 import './Content.css';
 
 export default function Content() {
+  // On-Time Number is randomly generated to
+  // simulate varying cases of driver performance
+  // and it's effect on the visual appearance of the DriverCard
+  // These people are my friends if you're curious
   // eslint-disable-next-line
   const [data, setData] = useState([
     {
@@ -78,8 +82,8 @@ export default function Content() {
       </div>
       <div className="d-flex flex-row flex-wrap justify-content-start align-items-center px-2">
         {
-          data.map((datum, index) => {
-            return <DriverCard key={index} driver={datum} />
+          data.map(datum => {
+            return <DriverCard key={datum.id} driver={datum} />
           })
         }
       </div>

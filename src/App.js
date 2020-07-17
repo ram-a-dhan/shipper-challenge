@@ -11,3 +11,18 @@ function App() {
 }
 
 export default App;
+
+/////////////////////////
+// COMPONENT TREE
+/////////////////////////
+// 
+// App
+// -> DriverManagement
+//    -> Topbar
+//    -> Body
+//       -> Sidebar
+//       -> Content
+//          -> DriverCard
+//       -> OtherContent
+// 
+/////////////////////////

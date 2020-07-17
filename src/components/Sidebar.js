@@ -12,7 +12,8 @@ import {
 import './Sidebar.css';
 
 export default function Sidebar(props) {
-
+	// the mechanism for this tabs system is changing boolean value of all tab values to false
+	// and then changing to true the value of the clicked tab
   const handleActive = (target) => {
     let activeCopy = { ...props.active };
     // let nextActive = !activeCopy[target];
