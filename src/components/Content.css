@@ -3,6 +3,36 @@
   background-color: #F6F9FB;
 }
 
+.ContentTitle h3 {
+  font-size: 3vh;
+  color: #FF4646;
+}
+
+.ContentTitle h6 {
+  font-size: 1.5vh;
+}
+
+.SearchBar {
+  width: 11rem;
+  height: 2.5rem;
+  border: 1px solid #DDDDDD;
+}
+
+.SearchBar input {
+  border: none;
+  width: 7.5rem;
+  height: 2.4rem;
+  color: #405060;
+  background-color: #F6F9FB;
+}
+
+.AddButton {
+  width: 11rem;
+  height: 2.5rem;
+  color: #FFFFFF;
+  background-color: #FF4646;
+}
+
 .LoadingSpinner {
-  color: #FF003D;
+  color: #FF4646;
 }

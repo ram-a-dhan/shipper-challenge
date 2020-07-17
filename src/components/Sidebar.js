@@ -33,7 +33,7 @@ export default function Sidebar(props) {
             onClick={() => handleActive('beranda')}
           >
 						<li className="py-3 pl-3">
-							<FaHome color={props.active.beranda ? "#FF003D" : "#405060" } /> Beranda
+							<FaHome color={props.active.beranda ? "#FF4646" : "#405060" } /> Beranda
 						</li>
 					</a>
 					{/* eslint-disable-next-line */}
@@ -42,7 +42,7 @@ export default function Sidebar(props) {
             onClick={() => handleActive('pickup')}
           >
 						<li className="py-3 pl-3">
-							<FaCalendarDay color={props.active.pickup ? "#FF003D" : "#405060" } /> Pickup
+							<FaCalendarDay color={props.active.pickup ? "#FF4646" : "#405060" } /> Pickup
 						</li>
 					</a>
 					{/* eslint-disable-next-line */}
@@ -51,7 +51,7 @@ export default function Sidebar(props) {
             onClick={() => handleActive('order')}
           >
 						<li className="py-3 pl-3">
-							<FaDollyFlatbed color={props.active.order ? "#FF003D" : "#405060" } /> Order
+							<FaDollyFlatbed color={props.active.order ? "#FF4646" : "#405060" } /> Order
 						</li>
 					</a>
 					{/* eslint-disable-next-line */}
@@ -60,7 +60,7 @@ export default function Sidebar(props) {
             onClick={() => handleActive('driver')}
           >
 						<li className="py-3 pl-3">
-							<FaIdCard color={props.active.driver ? "#FF003D" : "#405060" } /> Driver
+							<FaIdCard color={props.active.driver ? "#FF4646" : "#405060" } /> Driver
 						</li>
 					</a>
 					{/* eslint-disable-next-line */}
@@ -69,7 +69,7 @@ export default function Sidebar(props) {
             onClick={() => handleActive('merchant')}
           >
 						<li className="py-3 pl-3">
-							<FaStore color={props.active.merchant ? "#FF003D" : "#405060" } /> Merchant
+							<FaStore color={props.active.merchant ? "#FF4646" : "#405060" } /> Merchant
 						</li>
 					</a>
 					{/* eslint-disable-next-line */}
@@ -78,7 +78,7 @@ export default function Sidebar(props) {
             onClick={() => handleActive('laporan')}
           >
 						<li className="py-3 pl-3">
-							<FaClipboardCheck  color={props.active.laporan ? "#FF003D" : "#405060" } /> Laporan
+							<FaClipboardCheck  color={props.active.laporan ? "#FF4646" : "#405060" } /> Laporan
 						</li>
 					</a>
 					{/* eslint-disable-next-line */}
@@ -87,7 +87,7 @@ export default function Sidebar(props) {
             onClick={() => handleActive('profil')}
           >
 						<li className="py-3 pl-3">
-							<FaUserCircle  color={props.active.profil ? "#FF003D" : "#405060" } /> Profil
+							<FaUserCircle  color={props.active.profil ? "#FF4646" : "#405060" } /> Profil
 						</li>
 					</a>
 				</IconContext.Provider>
