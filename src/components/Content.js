@@ -23,7 +23,7 @@ export default function Content() {
       picture: 'oddy.jpg',
       name: 'Oddy Sutrisno',
       phone: '0815 9164 XXXX',
-      schedule: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat'],
+      schedule: ['Sabtu', 'Minggu'],
       ontime: Math.round(Math.random() * 100),
     },
     {
@@ -48,6 +48,14 @@ export default function Content() {
       name: 'Fauzan Akbar',
       phone: '0815 7665 XXXX',
       schedule: ['Sabtu', 'Minggu'],
+      ontime: Math.round(Math.random() * 100),
+    },
+    {
+      id: 235636,
+      picture: '',
+      name: 'Erlang Amara',
+      phone: '0812 8653 XXXX',
+      schedule: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat'],
       ontime: Math.round(Math.random() * 100),
     },
     {

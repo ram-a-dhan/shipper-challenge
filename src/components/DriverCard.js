@@ -47,7 +47,7 @@ export default function DriverCard({ driver }) {
           <h6>Nama Driver</h6>
           <p>{driver.name}</p>
           <h6>Telepon</h6>
-          <p>{driver.phome}</p>
+          <p>{driver.phone}</p>
           <h6>Jadwal</h6>
           <p>
             {driver.schedule.join(', ')}
