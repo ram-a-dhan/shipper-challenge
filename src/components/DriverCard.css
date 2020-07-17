@@ -1,0 +1,69 @@
+.DriverCard {
+  width: 17.5rem;
+  height: 22.5rem;
+  border-radius: 1rem;
+  background-color: #FFFFFF;
+}
+
+.DriverCardHeader {
+  border-radius: 1rem 1rem 0rem 0rem;
+  background-color: #FFFFFF;
+}
+
+.DriverCardHeader p {
+  font-size: 0.75rem;
+  color: #808080;
+}
+
+.DriverCardHeader p span {
+  color: #FF4646;
+}
+
+.DriverCardHeaderWarning {
+  border-radius: 1rem 1rem 0rem 0rem;
+  background-color: #FF4646;
+}
+
+.DriverCardHeaderWarning p {
+  font-size: 0.75rem;
+  color: #FFFFFF;
+}
+
+.DriverCardBody {
+  height: 20rem;
+}
+
+.OnTimeProgress {
+  position: relative;
+  top: -1.5rem;
+  right: -1.5rem;
+}
+
+.ProgressIndicator {
+  position: relative;
+  top: -6.7rem;
+}
+
+.ProgressIndicator h3, .ProgressIndicator p {
+  margin-bottom: 0rem;
+}
+
+.ProgressIndicator h3 {
+  color: #FF4646;
+}
+
+.DriverPicture {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50rem;
+}
+
+.DriverInfo {
+  clear: both;
+  position: relative;
+  top: -7rem;
+}
+
+.DriverInfo h6, .DriverInfo p {
+  font-size: 0.75rem;
+}

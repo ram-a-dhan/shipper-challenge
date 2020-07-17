@@ -5,7 +5,7 @@ import './Topbar.css';
 export default function Topbar() {
   return (
     <div className="Topbar">
-      <div className="TopbarContainer container d-flex flex-row-flex-nowrap justify-content-between align-items-center">
+      <div className="TopbarContainer d-flex flex-row-flex-nowrap justify-content-between align-items-center px-1">
         {/* eslint-disable-next-line */}
         <a href="#">
           <img src="./ShipperLogo.png" alt="Shipper" className="ShipperLogo mx-2" />

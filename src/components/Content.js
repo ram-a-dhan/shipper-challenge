@@ -1,8 +1,60 @@
-import React from 'react';
-import './Content.css';
+import React, { useState } from 'react';
 import { FaSearch, FaPlus } from 'react-icons/fa';
+import DriverCard from './DriverCard';
+import './Content.css';
 
 export default function Content() {
+  // eslint-disable-next-line
+  const [data, setData] = useState([
+    {
+      id: 976659,
+      picture: 'akbar.jpg',
+      name: 'Akbar Akma',
+      phone: '0853 4673 XXXX',
+      schedule: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'],
+      ontime: Math.round(Math.random() * 100),
+    },
+    {
+      id: 626543,
+      picture: 'oddy.jpg',
+      name: 'Oddy Sutrisno',
+      phone: '0815 9164 XXXX',
+      schedule: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat'],
+      ontime: Math.round(Math.random() * 100),
+    },
+    {
+      id: 262463,
+      picture: '',
+      name: 'Darindra Khadifa',
+      phone: '0856 3623 XXXX',
+      schedule: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat'],
+      ontime: Math.round(Math.random() * 100),
+    },
+    {
+      id: 928192,
+      picture: 'ivan.jpg',
+      name: 'Ivan Andhika',
+      phone: '0813 4321 XXXX',
+      schedule: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat'],
+      ontime: Math.round(Math.random() * 100),
+    },
+    {
+      id: 734412,
+      picture: 'fauzan.jpg',
+      name: 'Fauzan Akbar',
+      phone: '0815 7665 XXXX',
+      schedule: ['Sabtu', 'Minggu'],
+      ontime: Math.round(Math.random() * 100),
+    },
+    {
+      id: 623143,
+      picture: 'indra.jpg',
+      name: 'Indra Puji',
+      phone: '0813 9872 XXXX',
+      schedule: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'],
+      ontime: Math.round(Math.random() * 100),
+    },
+  ])
 	return (
 		<div className="Content d-flex flex-column flex-nowrap justify-content-start align-items-center col-12 col-sm-12 col-md-9 col-xl-10 p-0">
       <div className="d-flex flex-row flex-wrap justify-content-between align-items-center w-100 p-3">
@@ -24,8 +76,12 @@ export default function Content() {
           </a>
         </div>
       </div>
-      <div className="d-flex flex-row flex-wrap justify-content-start align-items-start">
-
+      <div className="d-flex flex-row flex-wrap justify-content-start align-items-center px-2">
+        {
+          data.map((datum, index) => {
+            return <DriverCard key={index} driver={datum} />
+          })
+        }
       </div>
 		</div>
 	);

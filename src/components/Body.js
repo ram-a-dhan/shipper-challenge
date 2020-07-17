@@ -14,11 +14,13 @@ export default function Body() {
     profil: false,
   });
   return (
-    <div className="Body container d-flex flex-row flex-nowrap justify-content-center align-items-start">
+    <div className="Body d-flex flex-row flex-nowrap justify-content-center align-items-start">
       <div className="d-flex flex-wrap w-100">
         <Sidebar active={active} setActive={setActive} />
+        {/* eslint-disable-next-line */}
         {active.driver && (
           <Content active={active} setActive={setActive} />
+          /* eslint-disable-next-line */
         ) || (
           <OtherContent />
         )}

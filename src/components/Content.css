@@ -15,7 +15,8 @@
 .SearchBar {
   width: 11rem;
   height: 2.5rem;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #C0C0C0;
+  background-color: #FFFFFF;
 }
 
 .SearchBar input {
