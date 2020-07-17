@@ -16,10 +16,12 @@ export default function Content() {
             <input type="text" className="mr-2" placeholder="Cari Driver" />
           </div>
           {/* eslint-disable-next-line */}
-          <div className="AddButton d-flex flex-row flex-nowrap justify-content-center align-items-center m-1">
-            Tambah Driver &nbsp;
-            <FaPlus size="2.5vh" color="FFFFFF" />
-          </div>
+          <a href="#">
+            <div className="AddButton d-flex flex-row flex-nowrap justify-content-center align-items-center m-1">
+              Tambah Driver &nbsp;
+              <FaPlus size="2.5vh" color="FFFFFF" />
+            </div>
+          </a>
         </div>
       </div>
       <div className="d-flex flex-row flex-wrap justify-content-start align-items-start">
