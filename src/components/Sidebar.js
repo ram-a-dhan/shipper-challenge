@@ -49,7 +49,8 @@ export default function Sidebar(props) {
 					{/* eslint-disable-next-line */}
           <a href="#"
             className={"" + (props.active.order ? "SidebarActive" : "SidebarInactive")}
-            onClick={() => handleActive('order')}
+						onClick={() => handleActive('order')}
+						data-testid="orderTab"
           >
 						<li className="py-3 pl-3">
 							<FaDollyFlatbed color={props.active.order ? "#FF4646" : "#405060" } /> Order
@@ -58,7 +59,8 @@ export default function Sidebar(props) {
 					{/* eslint-disable-next-line */}
           <a href="#"
             className={"" + (props.active.driver ? "SidebarActive" : "SidebarInactive")}
-            onClick={() => handleActive('driver')}
+						onClick={() => handleActive('driver')}
+						data-testid="driverTab"
           >
 						<li className="py-3 pl-3">
 							<FaIdCard color={props.active.driver ? "#FF4646" : "#405060" } /> Driver

@@ -4,7 +4,7 @@ import Body from '../components/Body';
 
 export default function DriverManagement() {
   return (
-    <div>
+    <div data-testid="driverPage">
       <Topbar />
       <Body />
     </div>

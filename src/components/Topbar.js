@@ -8,7 +8,7 @@ export default function Topbar() {
       <div className="TopbarContainer d-flex flex-row-flex-nowrap justify-content-between align-items-center px-1">
         {/* eslint-disable-next-line */}
         <a href="https://shipper.id" target="__blank" rel="noopener noreferrer">
-          <img src="./ShipperLogo.png" alt="Shipper" className="ShipperLogo mx-2" />
+          <img src="./ShipperLogo.png" alt="Shipper" className="ShipperLogo mx-2" data-testid="companyLogo" />
         </a>
         <div className="UserMenu d-flex flex-row-flex-nowrap justify-content-center align-items-center">
           {/* eslint-disable-next-line */}

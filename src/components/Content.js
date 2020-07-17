@@ -60,7 +60,7 @@ export default function Content() {
     },
   ])
 	return (
-		<div className="Content d-flex flex-column flex-nowrap justify-content-start align-items-center col-12 col-sm-12 col-md-9 col-xl-10 p-0">
+		<div className="Content d-flex flex-column flex-nowrap justify-content-start align-items-center col-12 col-sm-12 col-md-9 col-xl-10 p-0" data-testid="mainContent">
       <div className="d-flex flex-row flex-wrap justify-content-between align-items-center w-100 p-3">
         <div className="ContentTitle">
           <h3 className="font-weight-bold">DRIVER MANAGEMENT</h3>

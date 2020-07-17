@@ -1,9 +1,14 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, cleanup } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+afterEach(() => cleanup());
+
+describe('render test', () => {
+  test('should show driver id 976659', () => {
+    const { getByTestId } = render(<App />);
+    const driverId = getByTestId('driverId976659');
+    expect(driverId).toBeInTheDocument();
+  });
 });
